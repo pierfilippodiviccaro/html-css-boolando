@@ -20,6 +20,7 @@ img {
     width: 80%;
    max-width: 1500px;
    margin: 0 auto;
+   position: relative;
    
 }
 .row{
@@ -91,5 +92,5 @@ img{
 }
 .card > img:hover{
     cursor: pointer;
-    transition: 200ms ease-in-out;
+    
 }
