@@ -8,6 +8,8 @@ section{
 }
 .col-30{
     width: 30%;
+    margin-bottom: 45px;
+    margin-top: 35px;
     
 }
 img {
@@ -28,8 +30,9 @@ img {
 }
 .discount{
     background-color: red;
-    bottom: 50px;
+    bottom: 35px;
     position: absolute;
+    color: white;
 }
 .card{
     position: relative;
@@ -37,4 +40,18 @@ img {
 }
 img{
     max-width: 100%;
+}
+.eco{
+    background-color: green;
+    bottom: 30px;
+    position: absolute;
+    color: white;
+}
+.eco2{
+    background-color: green;
+    bottom: 35px;
+    position: absolute;
+    color: white;
+    left: 39px;
+
 }
