@@ -33,6 +33,11 @@ img {
     bottom: 85px;
     position: absolute;
     color: white;
+    width: 50px;
+    text-align: center;
+    height: 25px;
+    align-content: center;
+    border-radius: 5px;    
 }
 .card{
     position: relative;
@@ -46,13 +51,25 @@ img{
     bottom: 75px;
     position: absolute;
     color: white;
+    font-size: 0.9rem;
+    height: 30px;
+    width: 100px;
+    text-align: center;
+    align-content: center;
+    border-radius: 5px;
+
 }
 .eco2{
     background-color: green;
-    bottom: 85px;
+    bottom: 80px;
     position: absolute;
     color: white;
-    left: 39px;
+    left: 54px;
+    height: 30px;
+    width: 100px;
+    text-align: center;
+    align-content: center;
+    border-radius: 5px;
 
 }
 .line-through{
@@ -66,8 +83,13 @@ img{
      left: 95%;
   bottom: 92%;
   transform: translateX(-50%);
+  border: 0;
 }
 .like:hover{
     cursor: pointer;
     background-color: red;
+}
+.card > img:hover{
+    cursor: pointer;
+    transition: 200ms ease-in-out;
 }
