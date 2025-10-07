@@ -30,7 +30,7 @@ img {
 }
 .discount{
     background-color: red;
-    bottom: 35px;
+    bottom: 85px;
     position: absolute;
     color: white;
 }
@@ -43,15 +43,31 @@ img{
 }
 .eco{
     background-color: green;
-    bottom: 30px;
+    bottom: 75px;
     position: absolute;
     color: white;
 }
 .eco2{
     background-color: green;
-    bottom: 35px;
+    bottom: 85px;
     position: absolute;
     color: white;
     left: 39px;
 
+}
+.line-through{
+    text-decoration: line-through;
+}
+.like{
+    background-color: rgb(255, 255, 255);
+    font-size: 1.5rem;
+    width: 10%;
+    position: absolute;
+     left: 95%;
+  bottom: 92%;
+  transform: translateX(-50%);
+}
+.like:hover{
+    cursor: pointer;
+    background-color: red;
 }
