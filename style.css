@@ -1,4 +1,4 @@
-<!-- Reset CSS -->
+
 *{
     margin: 0;
     padding: 0;
@@ -7,9 +7,7 @@
 img{
     max-width: 100%;
 }
-<!-- fine reset css -->
 
-<!-- Stile CSS -->
 section{
     padding: 30px;
 }
@@ -119,4 +117,3 @@ img {
 .logos{
     display: flex;
 }
-<!--fine stile css -->
