@@ -1,8 +1,15 @@
+<!-- Reset CSS -->
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+img{
+    max-width: 100%;
+}
+<!-- fine reset css -->
+
+<!-- Stile CSS -->
 section{
     padding: 30px;
 }
@@ -43,9 +50,6 @@ img {
 .card{
     position: relative;
 
-}
-img{
-    max-width: 100%;
 }
 .eco{
     background-color: green;
@@ -94,3 +98,25 @@ img{
     cursor: pointer;
     
 }
+.miaomi{
+    display: flex;
+    gap: 50px;
+    text-align: center;
+    align-items: center;
+    flex-direction: row;
+}
+.header{
+    display: flex;
+    background-color: #ff4c00;
+    color: white;
+    padding: 20px 0;
+    margin-bottom: 10px;
+    max-height: 70%;
+    
+}
+.logo
+{display: flex;}
+.logos{
+    display: flex;
+}
+<!--fine stile css -->
