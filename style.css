@@ -1,6 +1,6 @@
 
 *{
-    margin: 0;
+margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
@@ -98,22 +98,25 @@ img {
 }
 .miaomi{
     display: flex;
-    gap: 50px;
-    text-align: center;
-    align-items: center;
     flex-direction: row;
+   
 }
 .header{
     display: flex;
     background-color: #ff4c00;
     color: white;
     padding: 20px 0;
-    margin-bottom: 10px;
-    max-height: 70%;
+    
     
 }
 .logo
 {display: flex;}
 .logos{
     display: flex;
+}
+.tag{
+    display: inline-block;
+}
+img{
+    max-width: 100%;
 }
