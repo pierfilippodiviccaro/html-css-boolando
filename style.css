@@ -102,6 +102,7 @@ img {
    
 }
 .header{
+    width: 100%;
     background-color: #ff4c00;
     color: white;    
 }
@@ -117,13 +118,11 @@ img{
     max-width: 100%;
 }
 .titolo-header{
-    width: 15%;
-    height: 30px;
+    width: 20%;
+    padding-right: 15px;
+    
 }
-.left-row{
-    display: flex;
-    flex-direction: row;
-}
+
 .container-header{
     display: flex;
     align-items: center;
@@ -136,8 +135,14 @@ img{
     flex-direction: row;
     list-style: none;
     gap: 10px;
+    margin-left: 10px;
+    font-size: 20px;
 }
 .lista li:hover{
     cursor: pointer;
     font-weight: 900;
+}
+.shopping-user{
+    margin-right: 20px;
+    font-size: 20px;
 }
